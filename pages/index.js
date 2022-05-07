@@ -2,14 +2,14 @@ import {useState} from 'react';
 //Next js usa o mais atual fast refrash
 function Home(){
     return(
-    <div><h1>Home 1</h1>
+    <div><h1>COUNTER</h1>
     <Contador />
     </div>
     )
 }
 
 function Contador(){
-    const [contador,setContador] = useState(1);
+    const [contador,setContador] = useState(0);
     function adicionarContador(){
         setContador(contador +1);
     }
